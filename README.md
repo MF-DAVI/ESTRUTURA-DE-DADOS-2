@@ -15,6 +15,6 @@ Repositório dedicado aos códigos, exercícios e projetos desenvolvidos durante
 ## 💻 Linguagem & Ferramentas
 
 - **Linguagem principal: PYTHON
-- **IDE / Editor:** VS Code e GOOGLE COLAB
+- **IDE / Editor:** VS Code e Google Colab
 
 ---
