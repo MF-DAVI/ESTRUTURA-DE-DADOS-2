@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="white"/>
+  <text x="600" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#1f2937">Grafo da Rede Social</text>
+
+  <!-- arestas -->
+  <g stroke="#8a8a8a" stroke-width="4" stroke-linecap="round">
+    <line x1="150" y1="330" x2="360" y2="170"/>
+    <line x1="150" y1="330" x2="430" y2="350"/>
+    <line x1="150" y1="330" x2="330" y2="560"/>
+
+    <line x1="360" y1="170" x2="430" y2="350"/>
+    <line x1="360" y1="170" x2="750" y2="170"/>
+
+    <line x1="430" y1="350" x2="850" y2="350"/>
+    <line x1="430" y1="350" x2="680" y2="560"/>
+
+    <line x1="330" y1="560" x2="750" y2="170"/>
+    <line x1="750" y1="170" x2="850" y2="350"/>
+
+    <line x1="850" y1="350" x2="1060" y2="400"/>
+    <line x1="680" y1="560" x2="1060" y2="400"/>
+  </g>
+
+  <!-- nos -->
+  <g font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">
+    <circle cx="150" cy="330" r="58" fill="#f7a8a8" stroke="#374151" stroke-width="3"/>
+    <text x="150" y="330" fill="#111827">Ana</text>
+
+    <circle cx="360" cy="170" r="58" fill="#7cc4ef" stroke="#374151" stroke-width="3"/>
+    <text x="360" y="170" fill="#111827">Bruno</text>
+
+    <circle cx="430" cy="350" r="58" fill="#f8d96b" stroke="#374151" stroke-width="3"/>
+    <text x="430" y="350" fill="#111827">Carla</text>
+
+    <circle cx="330" cy="560" r="58" fill="#99e39f" stroke="#374151" stroke-width="3"/>
+    <text x="330" y="560" fill="#111827">Diego</text>
+
+    <circle cx="750" cy="170" r="58" fill="#cda0ef" stroke="#374151" stroke-width="3"/>
+    <text x="750" y="170" fill="#111827">Eduardo</text>
+
+    <circle cx="850" cy="350" r="58" fill="#f5b07d" stroke="#374151" stroke-width="3"/>
+    <text x="850" y="350" fill="#111827">Fernanda</text>
+
+    <circle cx="680" cy="560" r="58" fill="#79ded8" stroke="#374151" stroke-width="3"/>
+    <text x="680" y="560" fill="#111827">Gabriel</text>
+
+    <circle cx="1060" cy="400" r="58" fill="#efb3df" stroke="#374151" stroke-width="3"/>
+    <text x="1060" y="400" fill="#111827">Helena</text>
+  </g>
+
+  <text x="600" y="680" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#4b5563">
+    Rede social fictícia usada na atividade de grafos com NetworkX
+  </text>
+</svg>
