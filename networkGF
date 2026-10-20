@@ -1,0 +1,34 @@
+#usar os comandos: pip install matplotlib e o pip install networkx
+
+import networkx as nx
+import matplotlib.pyplot as plt
+
+# 1. Criar o grafo
+G = nx.Graph()
+
+# 2. Adicionar as arestas com pesos
+G.add_edge('A', 'B', weight=3)
+G.add_edge('A', 'C', weight=5)
+G.add_edge('B', 'C', weight=2)
+
+# 3. Definir a posição dos nós (seed garante que o desenho seja sempre igual)
+pos = nx.spring_layout(G, seed=42)
+
+# 4. Desenhar os nós e as conexões principais
+nx.draw(
+    G, pos,
+    with_labels=True,          # Mostra o nome dos nós (A, B, C)
+    node_color='green',      # Cor dos nós
+    node_size=1200,            # Tamanho dos nós
+    font_size=12,              # Tamanho da fonte dos nós
+    font_weight='bold'         # Estilo da fonte
+)
+
+# 5. Capturar os pesos das arestas
+pesos = nx.get_edge_attributes(G, 'weight')
+
+# 6. Desenhar os textos dos pesos em cima das linhas
+nx.draw_networkx_edge_labels(G, pos, edge_labels=pesos, font_size=12)
+
+# 7. Exibir o gráfico na tela
+plt.show()
